@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "creation": "2021-10-11 09:08:41.604595",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "diabetes_mellitus",
+  "personality_disorder",
+  "hypertension",
+  "coronary_artery_disease",
+  "traumatic_spine_fracture",
+  "immunodeficiency_virus",
+  "data_7"
+ ],
+ "fields": [
+  {
+   "fieldname": "diabetes_mellitus",
+   "fieldtype": "Data",
+   "label": "Diabetes Mellitus"
+  },
+  {
+   "fieldname": "personality_disorder",
+   "fieldtype": "Data",
+   "label": "Personality Disorder"
+  },
+  {
+   "fieldname": "hypertension",
+   "fieldtype": "Data",
+   "label": "Hypertension"
+  },
+  {
+   "fieldname": "coronary_artery_disease",
+   "fieldtype": "Data",
+   "label": "Coronary Artery Disease"
+  },
+  {
+   "fieldname": "traumatic_spine_fracture",
+   "fieldtype": "Data",
+   "label": "Traumatic Spine Fracture"
+  },
+  {
+   "fieldname": "immunodeficiency_virus",
+   "fieldtype": "Data",
+   "label": "Immunodeficiency Virus"
+  },
+  {
+   "fieldname": "data_7",
+   "fieldtype": "Data"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-10-11 09:08:41.604595",
+ "modified_by": "Administrator",
+ "module": "Palcare1",
+ "name": "Comorbidities",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

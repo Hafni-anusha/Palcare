@@ -1,0 +1,36 @@
+{
+ "actions": [],
+ "creation": "2021-10-11 11:57:34.890943",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "x",
+  "y"
+ ],
+ "fields": [
+  {
+   "fieldname": "x",
+   "fieldtype": "Data",
+   "label": "x"
+  },
+  {
+   "fieldname": "y",
+   "fieldtype": "Data",
+   "label": "y"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-10-11 11:57:34.890943",
+ "modified_by": "Administrator",
+ "module": "Palcare1",
+ "name": "Other Doctors",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

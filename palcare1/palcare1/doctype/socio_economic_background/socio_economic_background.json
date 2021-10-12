@@ -1,0 +1,42 @@
+{
+ "actions": [],
+ "creation": "2021-10-09 16:39:17.548614",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "upper_income_group",
+  "middle_income_group",
+  "lower_income_group"
+ ],
+ "fields": [
+  {
+   "fieldname": "upper_income_group",
+   "fieldtype": "Data",
+   "label": "Upper Income Group"
+  },
+  {
+   "fieldname": "middle_income_group",
+   "fieldtype": "Data",
+   "label": "Middle Income Group"
+  },
+  {
+   "fieldname": "lower_income_group",
+   "fieldtype": "Data",
+   "label": "Lower Income Group"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-10-09 16:39:17.548614",
+ "modified_by": "Administrator",
+ "module": "Palcare1",
+ "name": "Socio Economic Background",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

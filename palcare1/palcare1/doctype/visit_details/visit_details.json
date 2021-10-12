@@ -1,0 +1,145 @@
+{
+ "actions": [],
+ "creation": "2021-10-11 12:18:22.936083",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "visit_date",
+  "start_time",
+  "visited_by",
+  "doctor_in_charge",
+  "other_doctor",
+  "nurse_in_charge",
+  "other_nurse",
+  "counselor",
+  "other_counselor",
+  "palcare_staff",
+  "other",
+  "type_of_visit_section",
+  "enrolment",
+  "follow_up",
+  "bereavement",
+  "record_of_visit"
+ ],
+ "fields": [
+  {
+   "fieldname": "visit_date",
+   "fieldtype": "Date",
+   "label": "Visit Date"
+  },
+  {
+   "fieldname": "start_time",
+   "fieldtype": "Time",
+   "label": "Start time"
+  },
+  {
+   "fieldname": "visited_by",
+   "fieldtype": "Data",
+   "label": "Visited By"
+  },
+  {
+   "fieldname": "doctor_in_charge",
+   "fieldtype": "Table",
+   "label": "Doctor In Charge",
+   "options": "Doctor In Charge"
+  },
+  {
+   "fieldname": "other_doctor",
+   "fieldtype": "Table",
+   "label": "Other Doctor",
+   "options": "Other Doctors"
+  },
+  {
+   "fieldname": "nurse_in_charge",
+   "fieldtype": "Table",
+   "label": "Nurse in charge",
+   "options": "Nurse In Charge"
+  },
+  {
+   "fieldname": "other_nurse",
+   "fieldtype": "Table",
+   "label": "Other Nurse",
+   "options": "Other Nurse"
+  },
+  {
+   "fieldname": "counselor",
+   "fieldtype": "Table",
+   "label": "Counselor",
+   "options": "Counselor"
+  },
+  {
+   "fieldname": "other_counselor",
+   "fieldtype": "Table",
+   "label": "Other Counselor",
+   "options": "Other Counsellor"
+  },
+  {
+   "fieldname": "palcare_staff",
+   "fieldtype": "Table",
+   "label": "Palcare Staff",
+   "options": "Palcare Staff"
+  },
+  {
+   "fieldname": "other",
+   "fieldtype": "Table",
+   "label": "Other",
+   "options": "Others"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "type_of_visit_section",
+   "fieldtype": "Section Break",
+   "label": "Type of Visit"
+  },
+  {
+   "fieldname": "enrolment",
+   "fieldtype": "Select",
+   "label": "Enrolment",
+   "options": "\nPhysical\nVideo\nPhone"
+  },
+  {
+   "fieldname": "follow_up",
+   "fieldtype": "Select",
+   "label": "Follow Up",
+   "options": "\nPhysical\nVideo\nPhone"
+  },
+  {
+   "fieldname": "bereavement",
+   "fieldtype": "Select",
+   "label": "Bereavement",
+   "options": "\nPhysical\nVideo\nPhone"
+  },
+  {
+   "fieldname": "record_of_visit",
+   "fieldtype": "Table",
+   "label": "Record of Visit",
+   "options": "Record of Visit"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-11 12:44:11.096381",
+ "modified_by": "Administrator",
+ "module": "Palcare1",
+ "name": "Visit Details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

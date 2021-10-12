@@ -1,0 +1,1111 @@
+{
+ "actions": [],
+ "creation": "2021-10-10 00:21:17.965664",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "genaral_details_section",
+  "photo_of_patient",
+  "first_name",
+  "middle_name",
+  "surname",
+  "enrolment_number",
+  "date_of_entrolment",
+  "address",
+  "landmark",
+  "telephone_number_1_mobile",
+  "telephone_number_2_alternative",
+  "email",
+  "date_of_birth",
+  "gender",
+  "martial_status",
+  "socio_economic_background",
+  "section_break_17",
+  "employed",
+  "column_break_18",
+  "unemployed",
+  "section_break_22",
+  "literate",
+  "column_break_22",
+  "illiterate",
+  "column_break_26",
+  "number_of_family_members_in_the_same_house",
+  "primary_language",
+  "pan_no",
+  "aadhaar_no",
+  "caregivers_details_section",
+  "connection_to_patient",
+  "first_name_caregiver",
+  "middle_name_caregiver",
+  "surname_caregiver",
+  "address_caregiver",
+  "landmark_caregiver",
+  "telephone_number_1",
+  "telephone_number_2",
+  "email_caregiver",
+  "decision_makers_details_section",
+  "first_name_decision",
+  "middle_name_decison",
+  "surname_decision",
+  "address_decision",
+  "landmark_decision",
+  "telephone_mobile",
+  "telephone_decision",
+  "email_decision",
+  "referred_by_section",
+  "first_name_reffered",
+  "middle_name_reffered",
+  "surname_reffered",
+  "address_referred",
+  "telephone_number_referred",
+  "telephone_number_reffered",
+  "email_reffered",
+  "type_of_referral",
+  "general_physicians_details_section",
+  "first_name_details",
+  "middle_name_physician",
+  "surname_physician",
+  "address_physician",
+  "telephone_physician",
+  "email_physician",
+  "treating_onco_specialists_detais_section",
+  "first_name_treating",
+  "middle_name_treating",
+  "surname_treating",
+  "mobile_treating",
+  "telephone_treating",
+  "email_treating",
+  "treating_specialists_details_section",
+  "first_name_specialist",
+  "middle_name_specialist",
+  "surname_specialist",
+  "mobile_specialist",
+  "alternative_specialist",
+  "email_specialist",
+  "palcare_questions",
+  "debilitating_disease",
+  "preferred_place",
+  "safe_patient",
+  "the_home_environment_is_appro",
+  "primary_care",
+  "family_agreeable",
+  "consent_form",
+  "medical_details_section",
+  "if_cancer",
+  "type_of_ca",
+  "diagnosed",
+  "diagnosed_where__by",
+  "primary_site",
+  "secondary_site",
+  "metastasised_to",
+  "recovered_in",
+  "re_occured_in",
+  "stage",
+  "prognosis",
+  "chemotherapy",
+  "chemotherapy_table",
+  "radiation",
+  "radiation_table",
+  "immunotherapy",
+  "immunotherapy_table",
+  "alternative_therapy",
+  "ayurveda",
+  "homeopathy",
+  "siddha",
+  "unani",
+  "naturopathy",
+  "section_break_111",
+  "if_non_cancer",
+  "type_of_condition",
+  "diagnosed_non",
+  "diagnosis_non",
+  "comorbid_conditions",
+  "prognosis_non",
+  "is_on_active_treatment",
+  "patient_is_aware_of_herhis_condition",
+  "diagnosis",
+  "prognosis_known",
+  "revealed_by",
+  "complimentary",
+  "section_break_124",
+  "pain_history_for_both_section",
+  "site",
+  "intence_score",
+  "type",
+  "frequency",
+  "aggravator",
+  "reliever",
+  "impact_of_pain_on_quality_of_life",
+  "treatment_history_analgesis_only",
+  "respomse_to_pain_medications",
+  "others",
+  "general_examination_for_both_section",
+  "height",
+  "weight",
+  "bp",
+  "pulse",
+  "temp",
+  "spo_2",
+  "pallor",
+  "column_break_144",
+  "clubbing",
+  "lymphadenopathy",
+  "oedema",
+  "ambultion",
+  "cyanosis",
+  "oral_examination",
+  "pr",
+  "rr",
+  "general_appearence",
+  "level_of_consciousness",
+  "column_break_155",
+  "alerts_section",
+  "co_morbidities",
+  "allergies",
+  "alerts",
+  "section_break_160",
+  "diagnosis_in_brief",
+  "history_of_illness",
+  "systematic_and_local_examination",
+  "any_additional_doctors_notes_on_enrollment",
+  "section_break_165",
+  "pain_assessment",
+  "section_break_167",
+  "genogram"
+ ],
+ "fields": [
+  {
+   "collapsible": 1,
+   "fieldname": "genaral_details_section",
+   "fieldtype": "Section Break",
+   "label": "Genaral Details"
+  },
+  {
+   "fieldname": "photo_of_patient",
+   "fieldtype": "Attach Image",
+   "label": "Photo Of Patient "
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name "
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "surname",
+   "fieldtype": "Data",
+   "label": "Surname"
+  },
+  {
+   "fieldname": "enrolment_number",
+   "fieldtype": "Read Only",
+   "label": "Enrolment Number"
+  },
+  {
+   "fieldname": "date_of_entrolment",
+   "fieldtype": "Date",
+   "label": "Date Of Entrolment"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "landmark",
+   "fieldtype": "Small Text",
+   "label": "Landmark"
+  },
+  {
+   "fieldname": "telephone_number_1_mobile",
+   "fieldtype": "Int",
+   "label": "Telephone Number 1 (Mobile)"
+  },
+  {
+   "fieldname": "telephone_number_2_alternative",
+   "fieldtype": "Int",
+   "label": "Telephone Number 2 (Alternative)"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date Of Birth"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Male\nFemale\nTransgender"
+  },
+  {
+   "fieldname": "martial_status",
+   "fieldtype": "Data",
+   "label": "Martial Status"
+  },
+  {
+   "fieldname": "socio_economic_background",
+   "fieldtype": "Link",
+   "label": "Socio Economic Background",
+   "options": "Socio Economic Background"
+  },
+  {
+   "default": "0",
+   "fieldname": "employed",
+   "fieldtype": "Check",
+   "label": "Employed"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "unemployed",
+   "fieldtype": "Check",
+   "label": "Unemployed"
+  },
+  {
+   "default": "0",
+   "fieldname": "literate",
+   "fieldtype": "Check",
+   "label": "Literate"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "illiterate",
+   "fieldtype": "Check",
+   "label": "illiterate"
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_22",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "number_of_family_members_in_the_same_house",
+   "fieldtype": "Int",
+   "label": "Number Of Family Members In The Same House"
+  },
+  {
+   "fieldname": "primary_language",
+   "fieldtype": "Data",
+   "label": "Primary Language"
+  },
+  {
+   "fieldname": "pan_no",
+   "fieldtype": "Int",
+   "label": "Pan No"
+  },
+  {
+   "fieldname": "aadhaar_no",
+   "fieldtype": "Int",
+   "label": "Aadhaar No"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "caregivers_details_section",
+   "fieldtype": "Section Break",
+   "label": "Caregiver's Details"
+  },
+  {
+   "fieldname": "connection_to_patient",
+   "fieldtype": "Data",
+   "label": "Connection To Patient"
+  },
+  {
+   "fieldname": "first_name_caregiver",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "middle_name_caregiver",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "surname_caregiver",
+   "fieldtype": "Data",
+   "label": "Surname"
+  },
+  {
+   "fieldname": "address_caregiver",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "landmark_caregiver",
+   "fieldtype": "Small Text",
+   "label": "Landmark"
+  },
+  {
+   "fieldname": "telephone_number_1",
+   "fieldtype": "Int",
+   "label": "Telephone number 1"
+  },
+  {
+   "fieldname": "telephone_number_2",
+   "fieldtype": "Int",
+   "label": "Telephone Number 2"
+  },
+  {
+   "fieldname": "email_caregiver",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "decision_makers_details_section",
+   "fieldtype": "Section Break",
+   "label": "Decision Maker's Details "
+  },
+  {
+   "fieldname": "first_name_decision",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "middle_name_decison",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "surname_decision",
+   "fieldtype": "Data",
+   "label": "Surname"
+  },
+  {
+   "fieldname": "address_decision",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "landmark_decision",
+   "fieldtype": "Small Text",
+   "label": "Landmark"
+  },
+  {
+   "fieldname": "telephone_mobile",
+   "fieldtype": "Data",
+   "label": "Telephone Number (Mobile)"
+  },
+  {
+   "fieldname": "telephone_decision",
+   "fieldtype": "Data",
+   "label": "Telephone Number (Alternative)"
+  },
+  {
+   "fieldname": "email_decision",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "referred_by_section",
+   "fieldtype": "Section Break",
+   "label": "Referred By"
+  },
+  {
+   "fieldname": "first_name_reffered",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "middle_name_reffered",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "surname_reffered",
+   "fieldtype": "Data",
+   "label": "Surname"
+  },
+  {
+   "fieldname": "address_referred",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "telephone_number_referred",
+   "fieldtype": "Int",
+   "label": "Telephone Number (Mobile)"
+  },
+  {
+   "fieldname": "telephone_number_reffered",
+   "fieldtype": "Int",
+   "label": "Telephone Number (Alternative)"
+  },
+  {
+   "fieldname": "email_reffered",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "type_of_referral",
+   "fieldtype": "Link",
+   "label": "Type Of Referral",
+   "options": "Type Of Referral"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "general_physicians_details_section",
+   "fieldtype": "Section Break",
+   "label": "General Physician's Details"
+  },
+  {
+   "fieldname": "first_name_details",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "middle_name_physician",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "surname_physician",
+   "fieldtype": "Data",
+   "label": "Surname"
+  },
+  {
+   "fieldname": "address_physician",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "telephone_physician",
+   "fieldtype": "Data",
+   "label": "Telephone Number (Mobile)"
+  },
+  {
+   "fieldname": "email_physician",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "treating_onco_specialists_detais_section",
+   "fieldtype": "Section Break",
+   "label": "Treating Onco Specialist's Detais"
+  },
+  {
+   "fieldname": "first_name_treating",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "middle_name_treating",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "surname_treating",
+   "fieldtype": "Data",
+   "label": "Surname"
+  },
+  {
+   "fieldname": "mobile_treating",
+   "fieldtype": "Int",
+   "label": "Telephone Number (Mobile)"
+  },
+  {
+   "fieldname": "telephone_treating",
+   "fieldtype": "Int",
+   "label": "Telephone Number (Alternative)"
+  },
+  {
+   "fieldname": "email_treating",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "treating_specialists_details_section",
+   "fieldtype": "Section Break",
+   "label": "Treating Specialist's Details"
+  },
+  {
+   "fieldname": "first_name_specialist",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "middle_name_specialist",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "surname_specialist",
+   "fieldtype": "Data",
+   "label": "Surname"
+  },
+  {
+   "fieldname": "mobile_specialist",
+   "fieldtype": "Int",
+   "label": "Telephone Number (Mobile)"
+  },
+  {
+   "fieldname": "alternative_specialist",
+   "fieldtype": "Int",
+   "label": "Telephone Number (Alternative)"
+  },
+  {
+   "fieldname": "email_specialist",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "palcare_questions",
+   "fieldtype": "Section Break",
+   "label": "Is  the patient eligible for PALCARE's care - the all-important 6 question?"
+  },
+  {
+   "default": "0",
+   "fieldname": "debilitating_disease",
+   "fieldtype": "Check",
+   "label": "The patient has a chronic , debilitating disease"
+  },
+  {
+   "default": "0",
+   "fieldname": "preferred_place",
+   "fieldtype": "Check",
+   "label": "The home is the preferred place of care"
+  },
+  {
+   "default": "0",
+   "fieldname": "safe_patient",
+   "fieldtype": "Check",
+   "label": "The home environment is appropriate and safe for patient"
+  },
+  {
+   "default": "0",
+   "fieldname": "the_home_environment_is_appro",
+   "fieldtype": "Check",
+   "label": "The home environment is appro"
+  },
+  {
+   "default": "0",
+   "fieldname": "primary_care",
+   "fieldtype": "Check",
+   "label": "An identified primary care person is available to provide care"
+  },
+  {
+   "default": "0",
+   "fieldname": "family_agreeable",
+   "fieldtype": "Check",
+   "label": "Patient and family are agreeable to the principals of palliative"
+  },
+  {
+   "fieldname": "consent_form",
+   "fieldtype": "Attach Image",
+   "label": "Consent Form"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "medical_details_section",
+   "fieldtype": "Section Break",
+   "label": "Medical Details"
+  },
+  {
+   "default": "0",
+   "fieldname": "if_cancer",
+   "fieldtype": "Check",
+   "label": "If Cancer"
+  },
+  {
+   "depends_on": "if_cancer",
+   "fieldname": "type_of_ca",
+   "fieldtype": "Select",
+   "label": "Type Of CA"
+  },
+  {
+   "depends_on": "if_cancer",
+   "fieldname": "diagnosed",
+   "fieldtype": "Date",
+   "label": "Diagnosed"
+  },
+  {
+   "depends_on": "if_cancer",
+   "fieldname": "diagnosed_where__by",
+   "fieldtype": "Data",
+   "label": "Diagnosed Where / By"
+  },
+  {
+   "depends_on": "if_cancer",
+   "fieldname": "primary_site",
+   "fieldtype": "Select",
+   "label": "Primary Site"
+  },
+  {
+   "depends_on": "if_cancer",
+   "fieldname": "secondary_site",
+   "fieldtype": "Select",
+   "label": "Secondary Site"
+  },
+  {
+   "depends_on": "if_cancer",
+   "fieldname": "metastasised_to",
+   "fieldtype": "Data",
+   "label": "Metastasised to"
+  },
+  {
+   "depends_on": "if_cancer",
+   "fieldname": "recovered_in",
+   "fieldtype": "Date",
+   "label": "Recovered In"
+  },
+  {
+   "depends_on": "if_cancer",
+   "fieldname": "re_occured_in",
+   "fieldtype": "Date",
+   "label": "Re occured in"
+  },
+  {
+   "depends_on": "if_cancer",
+   "fieldname": "stage",
+   "fieldtype": "Select",
+   "label": "Stage"
+  },
+  {
+   "depends_on": "if_cancer",
+   "fieldname": "prognosis",
+   "fieldtype": "Select",
+   "label": "Prognosis",
+   "options": "Curable\nLong Life Span\nMedium Life Span\nPoor\nVery Poor\nCan't Say"
+  },
+  {
+   "default": "0",
+   "depends_on": "if_cancer",
+   "fieldname": "chemotherapy",
+   "fieldtype": "Check",
+   "label": "Chemotherapy"
+  },
+  {
+   "depends_on": "if_cancer",
+   "fieldname": "chemotherapy_table",
+   "fieldtype": "Table",
+   "label": "Chemotherapy Table",
+   "options": "Chemotherapy Table"
+  },
+  {
+   "default": "0",
+   "depends_on": "if_cancer",
+   "fieldname": "radiation",
+   "fieldtype": "Check",
+   "label": "Radiation"
+  },
+  {
+   "default": "0",
+   "depends_on": "if_cancer",
+   "fieldname": "immunotherapy",
+   "fieldtype": "Check",
+   "label": "Immunotherapy"
+  },
+  {
+   "default": "0",
+   "depends_on": "if_cancer",
+   "fieldname": "alternative_therapy",
+   "fieldtype": "Check",
+   "label": "Alternative Therapy"
+  },
+  {
+   "default": "0",
+   "depends_on": "alternative_therapy",
+   "fieldname": "ayurveda",
+   "fieldtype": "Check",
+   "label": "Ayurveda"
+  },
+  {
+   "default": "0",
+   "depends_on": "alternative_therapy",
+   "fieldname": "homeopathy",
+   "fieldtype": "Check",
+   "label": "Homeopathy"
+  },
+  {
+   "default": "0",
+   "depends_on": "alternative_therapy",
+   "fieldname": "siddha",
+   "fieldtype": "Check",
+   "label": "Siddha"
+  },
+  {
+   "default": "0",
+   "depends_on": "alternative_therapy",
+   "fieldname": "unani",
+   "fieldtype": "Check",
+   "label": "Unani"
+  },
+  {
+   "depends_on": "alternative_therapy",
+   "fieldname": "naturopathy",
+   "fieldtype": "Data",
+   "label": "Naturopathy"
+  },
+  {
+   "depends_on": "radiation",
+   "fieldname": "radiation_table",
+   "fieldtype": "Table",
+   "label": "Radiation Table",
+   "options": "Radiation Table"
+  },
+  {
+   "depends_on": "immunotherapy",
+   "fieldname": "immunotherapy_table",
+   "fieldtype": "Table",
+   "label": "Immunotherapy Table",
+   "options": "Immunotherapy"
+  },
+  {
+   "fieldname": "section_break_111",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "if_non_cancer",
+   "fieldtype": "Check",
+   "label": "If Non Cancer"
+  },
+  {
+   "depends_on": "if_non_cancer",
+   "fieldname": "type_of_condition",
+   "fieldtype": "Data",
+   "label": "Type Of Condition"
+  },
+  {
+   "depends_on": "if_non_cancer",
+   "fieldname": "diagnosed_non",
+   "fieldtype": "Date",
+   "label": "Diagnosed"
+  },
+  {
+   "depends_on": "if_non_cancer",
+   "fieldname": "diagnosis_non",
+   "fieldtype": "Data",
+   "label": "Diagnosed Where / By"
+  },
+  {
+   "depends_on": "if_non_cancer",
+   "fieldname": "comorbid_conditions",
+   "fieldtype": "Data",
+   "label": "Comorbid Conditions"
+  },
+  {
+   "depends_on": "if_non_cancer",
+   "fieldname": "prognosis_non",
+   "fieldtype": "Select",
+   "label": "Prognosis",
+   "options": "Curable\nLong Life Span\nMedium Life Span\nPoor\nVery Poor\nCan't Say"
+  },
+  {
+   "depends_on": "if_non_cancer",
+   "fieldname": "is_on_active_treatment",
+   "fieldtype": "Select",
+   "label": "Is on active treatment",
+   "options": "Yes\nNo"
+  },
+  {
+   "depends_on": "if_non_cancer",
+   "fieldname": "patient_is_aware_of_herhis_condition",
+   "fieldtype": "Select",
+   "label": "Patient is aware of her/his condition",
+   "options": "Yes\nNo"
+  },
+  {
+   "depends_on": "if_non_cancer",
+   "fieldname": "diagnosis",
+   "fieldtype": "Select",
+   "label": "Diagnosis",
+   "options": "Yes\nNo"
+  },
+  {
+   "depends_on": "if_non_cancer",
+   "fieldname": "prognosis_known",
+   "fieldtype": "Select",
+   "label": "Prognosis"
+  },
+  {
+   "depends_on": "if_non_cancer",
+   "fieldname": "revealed_by",
+   "fieldtype": "Select",
+   "label": "Revealed by ",
+   "options": "Doctor\nFamily\nSelf Guess\nOthers"
+  },
+  {
+   "depends_on": "if_non_cancer",
+   "fieldname": "complimentary",
+   "fieldtype": "Select",
+   "label": "COMPLIMENTARY",
+   "options": "Acupuncture\nTENS\nYoga"
+  },
+  {
+   "fieldname": "section_break_124",
+   "fieldtype": "Section Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "pain_history_for_both_section",
+   "fieldtype": "Section Break",
+   "label": "Pain History (for Both)"
+  },
+  {
+   "fieldname": "site",
+   "fieldtype": "Data",
+   "label": "Site"
+  },
+  {
+   "fieldname": "intence_score",
+   "fieldtype": "Select",
+   "label": "Intense - score",
+   "options": "Bearable / Unbearable\nMild / mod / severe\nOthers"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type"
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Data",
+   "label": "Frequency"
+  },
+  {
+   "fieldname": "aggravator",
+   "fieldtype": "Data",
+   "label": "Aggravator"
+  },
+  {
+   "fieldname": "reliever",
+   "fieldtype": "Data",
+   "label": "Reliever"
+  },
+  {
+   "fieldname": "impact_of_pain_on_quality_of_life",
+   "fieldtype": "Small Text",
+   "label": "Impact of pain on quality of life"
+  },
+  {
+   "fieldname": "treatment_history_analgesis_only",
+   "fieldtype": "Small Text",
+   "label": "Treatment history (analgesis only)"
+  },
+  {
+   "fieldname": "respomse_to_pain_medications",
+   "fieldtype": "Small Text",
+   "label": "Respomse to pain medications"
+  },
+  {
+   "fieldname": "others",
+   "fieldtype": "Small Text",
+   "label": "Others"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "general_examination_for_both_section",
+   "fieldtype": "Section Break",
+   "label": "General Examination for Both"
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Int",
+   "label": "Height"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Int",
+   "label": "Weight"
+  },
+  {
+   "fieldname": "bp",
+   "fieldtype": "Int",
+   "label": "BP"
+  },
+  {
+   "fieldname": "pulse",
+   "fieldtype": "Int",
+   "label": "Pulse"
+  },
+  {
+   "fieldname": "temp",
+   "fieldtype": "Int",
+   "label": "Temp"
+  },
+  {
+   "fieldname": "spo_2",
+   "fieldtype": "Data",
+   "label": "SPO 2"
+  },
+  {
+   "fieldname": "pallor",
+   "fieldtype": "Data",
+   "label": "Pallor"
+  },
+  {
+   "fieldname": "column_break_144",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "clubbing",
+   "fieldtype": "Data",
+   "label": "Clubbing"
+  },
+  {
+   "fieldname": "lymphadenopathy",
+   "fieldtype": "Data",
+   "label": "Lymphadenopathy"
+  },
+  {
+   "fieldname": "oedema",
+   "fieldtype": "Data",
+   "label": "Oedema"
+  },
+  {
+   "fieldname": "ambultion",
+   "fieldtype": "Data",
+   "label": "Ambultion"
+  },
+  {
+   "fieldname": "cyanosis",
+   "fieldtype": "Data",
+   "label": "Cyanosis"
+  },
+  {
+   "fieldname": "oral_examination",
+   "fieldtype": "Data",
+   "label": "Oral Examination"
+  },
+  {
+   "fieldname": "pr",
+   "fieldtype": "Int",
+   "label": "PR"
+  },
+  {
+   "fieldname": "rr",
+   "fieldtype": "Int",
+   "label": "RR"
+  },
+  {
+   "fieldname": "general_appearence",
+   "fieldtype": "Data",
+   "label": "General Appearence"
+  },
+  {
+   "fieldname": "level_of_consciousness",
+   "fieldtype": "Data",
+   "label": "Level of Consciousness"
+  },
+  {
+   "fieldname": "column_break_155",
+   "fieldtype": "Column Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "alerts_section",
+   "fieldtype": "Section Break",
+   "label": "Alerts"
+  },
+  {
+   "fieldname": "co_morbidities",
+   "fieldtype": "Link",
+   "label": "CO MORBIDITIES",
+   "options": "Comorbidities"
+  },
+  {
+   "fieldname": "allergies",
+   "fieldtype": "Data",
+   "label": "ALLERGIES"
+  },
+  {
+   "fieldname": "alerts",
+   "fieldtype": "Data",
+   "label": "ALERTS"
+  },
+  {
+   "fieldname": "section_break_160",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "diagnosis_in_brief",
+   "fieldtype": "Small Text",
+   "label": "Diagnosis in Brief"
+  },
+  {
+   "fieldname": "history_of_illness",
+   "fieldtype": "Small Text",
+   "label": "History of Illness"
+  },
+  {
+   "fieldname": "systematic_and_local_examination",
+   "fieldtype": "Small Text",
+   "label": "Systematic and Local Examination"
+  },
+  {
+   "fieldname": "any_additional_doctors_notes_on_enrollment",
+   "fieldtype": "Data",
+   "label": "Any additional Doctors Notes On Enrollment"
+  },
+  {
+   "fieldname": "section_break_165",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pain_assessment",
+   "fieldtype": "Attach Image",
+   "label": "PAIN ASSESSMENT"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_167",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "genogram",
+   "fieldtype": "Attach Image",
+   "label": "GENOGRAM"
+  },
+  {
+   "fieldname": "column_break_26",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-11 11:50:56.557124",
+ "modified_by": "Administrator",
+ "module": "Palcare1",
+ "name": "Enrolment Section",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "creation": "2021-10-09 16:41:54.781059",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tmh",
+  "hospital",
+  "doctor",
+  "onco_specialist",
+  "other_specialist",
+  "patient__family",
+  "social_media",
+  "others"
+ ],
+ "fields": [
+  {
+   "fieldname": "tmh",
+   "fieldtype": "Data",
+   "label": "TMH"
+  },
+  {
+   "fieldname": "hospital",
+   "fieldtype": "Data",
+   "label": "Hospital"
+  },
+  {
+   "fieldname": "doctor",
+   "fieldtype": "Data",
+   "label": "Doctor"
+  },
+  {
+   "fieldname": "onco_specialist",
+   "fieldtype": "Data",
+   "label": "Onco Specialist"
+  },
+  {
+   "fieldname": "other_specialist",
+   "fieldtype": "Data",
+   "label": "Other Specialist"
+  },
+  {
+   "fieldname": "patient__family",
+   "fieldtype": "Data",
+   "label": "Patient / Family"
+  },
+  {
+   "fieldname": "social_media",
+   "fieldtype": "Data",
+   "label": "Social Media"
+  },
+  {
+   "fieldname": "others",
+   "fieldtype": "Data",
+   "label": "Others"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-10-09 16:41:54.781059",
+ "modified_by": "Administrator",
+ "module": "Palcare1",
+ "name": "Type Of Referral",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
