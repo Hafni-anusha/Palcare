@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "creation": "2021-10-13 00:39:41.261009",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "type_view",
+  "report_date",
+  "ordered_by",
+  "uploaded_on"
+ ],
+ "fields": [
+  {
+   "fieldname": "type_view",
+   "fieldtype": "Data",
+   "label": "Type View"
+  },
+  {
+   "fieldname": "report_date",
+   "fieldtype": "Date",
+   "label": "Report date"
+  },
+  {
+   "fieldname": "ordered_by",
+   "fieldtype": "Data",
+   "label": "Ordered By"
+  },
+  {
+   "fieldname": "uploaded_on",
+   "fieldtype": "Date",
+   "label": "Uploaded on"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-10-13 00:39:41.261009",
+ "modified_by": "Administrator",
+ "module": "Palcare1",
+ "name": "Child Report",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

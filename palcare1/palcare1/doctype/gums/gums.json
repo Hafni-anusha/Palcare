@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "creation": "2021-10-12 16:02:22.938754",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "pink_gums",
+  "oedematous",
+  "redness",
+  "bleeding_gums"
+ ],
+ "fields": [
+  {
+   "fieldname": "pink_gums",
+   "fieldtype": "Data",
+   "label": "G1 : Pink"
+  },
+  {
+   "fieldname": "oedematous",
+   "fieldtype": "Data",
+   "label": "G2 : Oedematous"
+  },
+  {
+   "fieldname": "redness",
+   "fieldtype": "Data",
+   "label": "G3 : Redness"
+  },
+  {
+   "fieldname": "bleeding_gums",
+   "fieldtype": "Data",
+   "label": "G4 : Bleeding"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-10-12 16:02:22.938754",
+ "modified_by": "Administrator",
+ "module": "Palcare1",
+ "name": "Gums",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

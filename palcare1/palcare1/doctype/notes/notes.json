@@ -1,0 +1,132 @@
+{
+ "actions": [],
+ "creation": "2021-10-13 00:44:11.451397",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "doctors_notes_section",
+  "no",
+  "column_break_3",
+  "date",
+  "section_break_5",
+  "small_text_6",
+  "nurses_notes_section",
+  "no_nurse",
+  "column_break_9",
+  "date_nurse",
+  "small_text_11",
+  "counsellors_notes_section",
+  "no_counsellor",
+  "column_break_14",
+  "date_counsellor",
+  "section_break_16",
+  "small_text_17"
+ ],
+ "fields": [
+  {
+   "fieldname": "doctors_notes_section",
+   "fieldtype": "Section Break",
+   "label": "Doctor's Notes"
+  },
+  {
+   "fieldname": "no",
+   "fieldtype": "Int",
+   "label": "No"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "small_text_6",
+   "fieldtype": "Small Text"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "nurses_notes_section",
+   "fieldtype": "Section Break",
+   "label": "Nurse's Notes"
+  },
+  {
+   "fieldname": "no_nurse",
+   "fieldtype": "Int",
+   "label": "No"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_nurse",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "small_text_11",
+   "fieldtype": "Small Text"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "counsellors_notes_section",
+   "fieldtype": "Section Break",
+   "label": "Counsellor's Notes"
+  },
+  {
+   "fieldname": "no_counsellor",
+   "fieldtype": "Int",
+   "label": "No"
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_counsellor",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "small_text_17",
+   "fieldtype": "Small Text"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-13 00:52:04.543270",
+ "modified_by": "Administrator",
+ "module": "Palcare1",
+ "name": "Notes",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

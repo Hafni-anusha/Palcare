@@ -1,0 +1,452 @@
+{
+ "actions": [],
+ "creation": "2021-10-12 14:21:00.637810",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "family_and_social_aspects_section",
+  "family",
+  "community",
+  "family_social",
+  "section_break_6",
+  "insight_inito_illness",
+  "communication_pattern_section",
+  "w_withdrawne_easy_to_talk",
+  "ss_slurred_speech___cs_clear_speech",
+  "ut_unable_to_talk",
+  "te_talks_easily",
+  "section_break_13",
+  "emotional_stage_patient_section",
+  "s_shock",
+  "d_denial",
+  "h_hope",
+  "a_acceptance",
+  "section_break_19",
+  "emotions_section",
+  "s_sad__a_anger_",
+  "g_guilt__sh_shame",
+  "d_depression__st_suicidal_tendencies",
+  "others",
+  "section_break_25",
+  "fear_identified_section",
+  "of_death",
+  "of_severe_pain_of_leaving_family_behind",
+  "of_meeting_god",
+  "others_specify_in_notes_",
+  "section_break_31",
+  "spiritual_issues_identified_section",
+  "ag_angry_with_god",
+  "broken_relationships",
+  "forgiveness",
+  "belief_in_after_life",
+  "others_specify_in_notes_section",
+  "section_break_38",
+  "palcare_team_member_id_number",
+  "section_break_40",
+  "edmonton_symptom_assessment_esas_scoring_sheet_section",
+  "date_edsas",
+  "pain_score",
+  "dyspnoea",
+  "nausea__vomiting",
+  "appetite",
+  "sleep",
+  "bladder",
+  "bowel",
+  "skin",
+  "oral_assessment_column",
+  "l",
+  "t",
+  "mm",
+  "g",
+  "tt",
+  "pressure_injuries_column",
+  "s1",
+  "s2",
+  "s3",
+  "s4",
+  "s5",
+  "s6",
+  "section_break_64",
+  "scoring_sheet_section",
+  "final_summary_section"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "family_and_social_aspects_section",
+   "fieldtype": "Section Break",
+   "label": "Family and Social Aspects"
+  },
+  {
+   "fieldname": "family",
+   "fieldtype": "Select",
+   "label": "Family",
+   "options": "\nS\nNS"
+  },
+  {
+   "fieldname": "community",
+   "fieldtype": "Select",
+   "label": "Community",
+   "options": "\nS\nNS"
+  },
+  {
+   "fieldname": "family_social",
+   "fieldtype": "Select",
+   "label": "Family",
+   "options": "\nS\nSF\nDF"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "insight_inito_illness",
+   "fieldtype": "Select",
+   "label": "Insight inito illness",
+   "options": "\nAW\nNAW\nNWTK\nID"
+  },
+  {
+   "fieldname": "communication_pattern_section",
+   "fieldtype": "Section Break",
+   "label": "Communication Pattern"
+  },
+  {
+   "fieldname": "w_withdrawne_easy_to_talk",
+   "fieldtype": "Int",
+   "label": "W (Withdrawn)/E (Easy to talk)"
+  },
+  {
+   "fieldname": "ss_slurred_speech___cs_clear_speech",
+   "fieldtype": "Int",
+   "label": "SS (Slurred Speech ) / CS (Clear Speech)"
+  },
+  {
+   "fieldname": "ut_unable_to_talk",
+   "fieldtype": "Int",
+   "label": "UT (Unable to talk) "
+  },
+  {
+   "fieldname": "te_talks_easily",
+   "fieldtype": "Int",
+   "label": "TE (Talks Easily)"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "emotional_stage_patient_section",
+   "fieldtype": "Section Break",
+   "label": "Emotional Stage Patient"
+  },
+  {
+   "fieldname": "s_shock",
+   "fieldtype": "Int",
+   "label": "S (Shock)"
+  },
+  {
+   "fieldname": "d_denial",
+   "fieldtype": "Int",
+   "label": "D (Denial)"
+  },
+  {
+   "fieldname": "h_hope",
+   "fieldtype": "Int",
+   "label": "H (Hope) "
+  },
+  {
+   "fieldname": "a_acceptance",
+   "fieldtype": "Int",
+   "label": "A (Acceptance)"
+  },
+  {
+   "fieldname": "section_break_19",
+   "fieldtype": "Section Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "emotions_section",
+   "fieldtype": "Section Break",
+   "label": "Emotions"
+  },
+  {
+   "fieldname": "s_sad__a_anger_",
+   "fieldtype": "Int",
+   "label": "S (Sad) / A (Anger )"
+  },
+  {
+   "fieldname": "g_guilt__sh_shame",
+   "fieldtype": "Int",
+   "label": "G (Guilt) / SH (Shame)"
+  },
+  {
+   "fieldname": "d_depression__st_suicidal_tendencies",
+   "fieldtype": "Int",
+   "label": "D (Depression) / ST (Suicidal Tendencies)"
+  },
+  {
+   "fieldname": "others",
+   "fieldtype": "Data",
+   "label": "Others"
+  },
+  {
+   "fieldname": "section_break_25",
+   "fieldtype": "Section Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "fear_identified_section",
+   "fieldtype": "Section Break",
+   "label": "Fear Identified"
+  },
+  {
+   "fieldname": "of_death",
+   "fieldtype": "Int",
+   "label": "Of Death"
+  },
+  {
+   "fieldname": "of_severe_pain_of_leaving_family_behind",
+   "fieldtype": "Int",
+   "label": "Of severe pain of leaving family behind"
+  },
+  {
+   "fieldname": "of_meeting_god",
+   "fieldtype": "Int",
+   "label": "Of meeting God"
+  },
+  {
+   "fieldname": "others_specify_in_notes_",
+   "fieldtype": "Data",
+   "label": "Others (Specify in Notes )"
+  },
+  {
+   "fieldname": "section_break_31",
+   "fieldtype": "Section Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "spiritual_issues_identified_section",
+   "fieldtype": "Section Break",
+   "label": "Spiritual Issues identified"
+  },
+  {
+   "fieldname": "ag_angry_with_god",
+   "fieldtype": "Int",
+   "label": "AG (Angry with God)"
+  },
+  {
+   "fieldname": "broken_relationships",
+   "fieldtype": "Int",
+   "label": "Broken Relationships"
+  },
+  {
+   "fieldname": "forgiveness",
+   "fieldtype": "Int",
+   "label": "Forgiveness"
+  },
+  {
+   "fieldname": "belief_in_after_life",
+   "fieldtype": "Int",
+   "label": "Belief in after life"
+  },
+  {
+   "fieldname": "others_specify_in_notes_section",
+   "fieldtype": "Data",
+   "label": "Others (Specify in notes section)"
+  },
+  {
+   "fieldname": "section_break_38",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "palcare_team_member_id_number",
+   "fieldtype": "Int",
+   "label": "PALCARE team member ID number"
+  },
+  {
+   "fieldname": "section_break_40",
+   "fieldtype": "Section Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "edmonton_symptom_assessment_esas_scoring_sheet_section",
+   "fieldtype": "Section Break",
+   "label": "EDMONTON SYMPTOM ASSESSMENT (ESAS) SCORING SHEET"
+  },
+  {
+   "fieldname": "date_edsas",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "pain_score",
+   "fieldtype": "Int",
+   "label": "Pain Score"
+  },
+  {
+   "fieldname": "dyspnoea",
+   "fieldtype": "Int",
+   "label": "Dyspnoea"
+  },
+  {
+   "fieldname": "nausea__vomiting",
+   "fieldtype": "Int",
+   "label": "Nausea / Vomiting"
+  },
+  {
+   "fieldname": "appetite",
+   "fieldtype": "Select",
+   "label": "Appetite",
+   "options": "\nNM : Normal\nP : Poor\nSF : Soft Diet\nFD : Fluid Diet\nCF : Clear Fluid\nTF : Tube Feed\nNE : Not Eating"
+  },
+  {
+   "fieldname": "sleep",
+   "fieldtype": "Select",
+   "label": "Sleep",
+   "options": "\nN : Normal\nD : Disturbed\nIN : Insomnia\nRV : Reverse"
+  },
+  {
+   "fieldname": "bladder",
+   "fieldtype": "Select",
+   "label": "Bladder",
+   "options": "\nDP : Diaper\nIDC : IDC\nO : Others (eg: NPU , ARU)"
+  },
+  {
+   "fieldname": "bowel",
+   "fieldtype": "Select",
+   "label": "Bowel",
+   "options": "\nNM : Normal\nDR : Diarrhoea\nC : Constipated\nM : Maleamic\nFB : Fresh Blood\nCT : Colostomy\nO : Others ( eg., BNO)"
+  },
+  {
+   "fieldname": "skin",
+   "fieldtype": "Select",
+   "label": "Skin",
+   "options": "\nSS : Skin\nSS1 : Moist\nSS2 : Dry\nSS3 : Fragile\nSS4 : Intact\nSS5 : Tear\nSS6 : Others (eg., broken skin , Pressure Injuries)"
+  },
+  {
+   "fieldname": "oral_assessment_column",
+   "fieldtype": "Column Break",
+   "label": "Oral Assessment"
+  },
+  {
+   "fieldname": "l",
+   "fieldtype": "Table",
+   "label": "L ",
+   "options": "Lips"
+  },
+  {
+   "fieldname": "t",
+   "fieldtype": "Table",
+   "label": "T",
+   "options": "Tongue"
+  },
+  {
+   "fieldname": "mm",
+   "fieldtype": "Table",
+   "label": "MM",
+   "options": "Mucous Membrane"
+  },
+  {
+   "fieldname": "g",
+   "fieldtype": "Table",
+   "label": "G",
+   "options": "Gums"
+  },
+  {
+   "fieldname": "tt",
+   "fieldtype": "Table",
+   "label": "TT",
+   "options": "Teeth"
+  },
+  {
+   "fieldname": "pressure_injuries_column",
+   "fieldtype": "Column Break",
+   "label": "Pressure Injuries"
+  },
+  {
+   "default": "0",
+   "fieldname": "s1",
+   "fieldtype": "Check",
+   "label": "S1 (Stage 1)"
+  },
+  {
+   "default": "0",
+   "fieldname": "s2",
+   "fieldtype": "Check",
+   "label": "S2 (Stage 2)"
+  },
+  {
+   "default": "0",
+   "fieldname": "s3",
+   "fieldtype": "Check",
+   "label": "S3 (Stage 3)"
+  },
+  {
+   "default": "0",
+   "fieldname": "s4",
+   "fieldtype": "Check",
+   "label": "S4 (Stage 4)"
+  },
+  {
+   "default": "0",
+   "fieldname": "s5",
+   "fieldtype": "Check",
+   "label": "S5 (Unstageable)"
+  },
+  {
+   "default": "0",
+   "fieldname": "s6",
+   "fieldtype": "Check",
+   "label": "S6 (Suspect Deep Tissue Injury)"
+  },
+  {
+   "fieldname": "section_break_64",
+   "fieldtype": "Section Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "scoring_sheet_section",
+   "fieldtype": "Section Break",
+   "label": "SCORING SHEET"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "final_summary_section",
+   "fieldtype": "Section Break",
+   "label": "FINAL SUMMARY"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-12 23:52:51.910690",
+ "modified_by": "Administrator",
+ "module": "Palcare1",
+ "name": "Clinical Assessment And Care Plan Section",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

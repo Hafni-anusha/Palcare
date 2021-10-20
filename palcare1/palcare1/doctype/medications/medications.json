@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "creation": "2021-10-13 00:01:12.472578",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "medications_on_enrolment",
+  "enrolment",
+  "section_break_4",
+  "medications_by_palcare_after_enrolment",
+  "table_5",
+  "section_break_6",
+  "medication_schedule"
+ ],
+ "fields": [
+  {
+   "fieldname": "medications_on_enrolment",
+   "fieldtype": "Image",
+   "label": "Medications on Enrolment "
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "medications_by_palcare_after_enrolment",
+   "fieldtype": "Image",
+   "label": "Medications by PALCARE after Enrolment"
+  },
+  {
+   "fieldname": "enrolment",
+   "fieldtype": "Table",
+   "options": "Medication table "
+  },
+  {
+   "fieldname": "table_5",
+   "fieldtype": "Table",
+   "options": "Medication table "
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "medication_schedule",
+   "fieldtype": "Image",
+   "label": "Medication Schedule"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-13 00:34:25.545214",
+ "modified_by": "Administrator",
+ "module": "Palcare1",
+ "name": "Medications",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
